@@ -17,9 +17,9 @@ struct CustomSlider<Component: View>: View {
 
     // MARK: - Private Properties
 
+    private let viewBuilder: (CustomSliderComponents) -> Component
     private var range: (Double, Double)
     private var knobWidth: CGFloat?
-    private let viewBuilder: (CustomSliderComponents) -> Component
 
     // MARK: - Initializers
 
@@ -35,7 +35,7 @@ struct CustomSlider<Component: View>: View {
         self.knobWidth = knobWidth
     }
 
-    // MARK: - Public methods
+    // MARK: - Private methods
 
     private func view(geometry: GeometryProxy) -> some View {
         let frame = geometry.frame(in: .global)

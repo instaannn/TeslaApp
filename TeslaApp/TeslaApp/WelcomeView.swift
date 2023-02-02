@@ -14,7 +14,7 @@ struct WelcomeView: View {
         static let lockOpenImageName = "lock.open.fill"
         static let lockImageName = "lock.fill"
         static let settingImageName = "setting"
-        static let whiteCar = "whiteCar"
+        static let whiteCarImageName = "whiteCar"
         static let hiText = "Hi"
         static let welcomeText = "Welcome back"
         static let unlockSettingImageName = "unlockSetting"
@@ -66,7 +66,7 @@ struct WelcomeView: View {
         ZStack {
             Image(Constants.lockCarImageName)
                 .opacity(welcomeViewModel.isCarClose ? 1 : 0)
-            Image(Constants.whiteCar)
+            Image(Constants.whiteCarImageName)
                 .opacity(welcomeViewModel.isCarClose ? 0 : 1)
         }
     }
@@ -174,7 +174,6 @@ struct WelcomeView: View {
 struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
         WelcomeView()
-            .previewDevice("iPhone 13")
             .preferredColorScheme(.dark)
     }
 }

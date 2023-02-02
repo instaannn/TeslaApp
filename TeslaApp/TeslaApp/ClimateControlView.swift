@@ -15,6 +15,7 @@ struct ClimateControlView: View {
     // MARK: - Public Properties
 
     let climateInfoControl: ClimateInfoControl
+
     @EnvironmentObject var climateViewModel: ClimateViewModel
 
     var body: some View {
@@ -25,8 +26,6 @@ struct ClimateControlView: View {
     }
 
     // MARK: - Private Properties
-
-    @State private var sliderValue = 0.0
 
     private var textButtonView: some View {
         HStack(spacing: 10) {
@@ -50,7 +49,7 @@ struct ClimateControlView: View {
 
     private var sliderView: some View {
         CustomSlider(
-            value: climateInfoControl.isFirstSlider ? $climateViewModel.circleProgress : $sliderValue,
+            value: climateInfoControl.isFirstSlider ? $climateViewModel.circleProgress : $climateViewModel.sliderValue,
             range: (0, 15)
         ) { modifiers in
             ZStack {

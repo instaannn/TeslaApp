@@ -16,7 +16,3 @@ extension Color {
     static let climateGradientLight = Color("climateGradientLight")
     static let darkBlueCustom = Color("darkBlueCustom")
 }
-
-extension UIColor {
-    static let backgroundCustom = Color("backgroundCustom")
-}

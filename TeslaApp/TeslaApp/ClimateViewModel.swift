@@ -12,6 +12,7 @@ final class ClimateViewModel: ObservableObject {
     @Published var powerIsOn = false
     @Published var selectColor: Color = .blueCustom
     @Published var isAlertShown = false
+    @Published var sliderValue = 0.0
 
     // MARK: - Public methods
 

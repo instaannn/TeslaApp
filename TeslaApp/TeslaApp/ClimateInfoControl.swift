@@ -5,9 +5,14 @@ import Foundation
 
 /// Нaстройки климат контроля
 struct ClimateInfoControl {
+    /// Название
     let text: String
+    /// Название картинки
     let imageName: String
+    /// Флаг первого слайдера
     let isFirstSlider: Bool
+    
+    // MARK: - Public Methods
 
     static func getClimateInfoControls() -> [ClimateInfoControl] {
         let climateInfoControls: [ClimateInfoControl] = [
