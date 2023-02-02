@@ -7,7 +7,7 @@ import SwiftUI
 struct TeslaAppApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            WelcomeView()
         }
     }
 }

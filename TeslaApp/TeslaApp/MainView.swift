@@ -33,6 +33,7 @@ struct MainView: View {
                 Spacer()
             }
         }
+        .navigationBarHidden(true)
     }
 
     // MARK: - Private Properties
@@ -49,30 +50,41 @@ struct MainView: View {
     }
 
     private var controlPanelView: some View {
-        HStack(spacing: 30) {
-            ForEach(1 ..< 5) { index in
-                Button {
-                    withAnimation {
-                        mainViewModel.tagSelected = index
+        ZStack {
+            NavigationLink(
+                destination: ClimateView()
+                    .navigationBarHidden(true),
+                isActive: $mainViewModel.isClimateViewShown
+            ) {}
+                .opacity(0)
+            HStack(spacing: 30) {
+                ForEach(1 ..< 5) { index in
+                    Button {
+                        withAnimation {
+                            mainViewModel.tagSelected = index
+                            if index == 2 {
+                                mainViewModel.isClimateViewShown.toggle()
+                            }
+                        }
+                    } label: {
+                        Image("\(index)")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 24, height: 24)
+                            .neumorphismUnSelectedCircleStyle()
+                            .overlay(
+                                Circle()
+                                    .stroke(LinearGradient.customLinearGradient, lineWidth: 2)
+                                    .opacity(mainViewModel.tagSelected == index ? 1 : 0)
+                            )
                     }
-                } label: {
-                    Image("\(index)")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 24, height: 24)
-                        .neumorphismUnSelectedCircleStyle()
-                        .overlay(
-                            Circle()
-                                .stroke(LinearGradient.customLinearGradient, lineWidth: 2)
-                                .opacity(mainViewModel.tagSelected == index ? 1 : 0)
-                        )
                 }
             }
+            .padding(.vertical, 40)
+            .padding(.horizontal, 30)
+            .background(RoundedRectangle(cornerRadius: 80).fill(UIColor.backgroundCustom))
+            .neumorphismUnSelectedStyle()
         }
-        .padding(.vertical, 40)
-        .padding(.horizontal, 30)
-        .background(RoundedRectangle(cornerRadius: 80).fill(UIColor.backgroundCustom))
-        .neumorphismUnSelectedStyle()
     }
 
     private var headerView: some View {

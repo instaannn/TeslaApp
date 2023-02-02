@@ -11,6 +11,10 @@ extension Color {
     static let darkShadow = Color("darkShadow")
     static let label = Color("label")
     static let lightShadow = Color("lightShadow")
+    static let darkBackgroundCustom = Color("darkBackgroundCustom")
+    static let climateGradientDark = Color("climateGradientDark")
+    static let climateGradientLight = Color("climateGradientLight")
+    static let darkBlueCustom = Color("darkBlueCustom")
 }
 
 extension UIColor {

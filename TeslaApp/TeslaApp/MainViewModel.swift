@@ -9,4 +9,5 @@ final class MainViewModel: ObservableObject {
 
     @Published var tagSelected = 0
     @Published var isCarClose = false
+    @Published var isClimateViewShown = false
 }
