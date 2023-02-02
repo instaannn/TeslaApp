@@ -19,6 +19,22 @@
 		85397B4729891FEC0087FD4E /* NeumorphismSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85397B4629891FEC0087FD4E /* NeumorphismSelected.swift */; };
 		85397B492989205A0087FD4E /* NeumorphismUnSelectedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85397B482989205A0087FD4E /* NeumorphismUnSelectedCircle.swift */; };
 		85397B4B298920A40087FD4E /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85397B4A298920A40087FD4E /* View+Extension.swift */; };
+		85397B4D298922ED0087FD4E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85397B4C298922ED0087FD4E /* WelcomeView.swift */; };
+		85E54350298976D0000DA07C /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5434F298976D0000DA07C /* WelcomeViewModel.swift */; };
+		85E543542989857A000DA07C /* ClimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E543532989857A000DA07C /* ClimateView.swift */; };
+		85E5435629898C92000DA07C /* TopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5435529898C92000DA07C /* TopControlView.swift */; };
+		85E543582989A3EB000DA07C /* ClimateControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E543572989A3EB000DA07C /* ClimateControlView.swift */; };
+		85E5435A298A6A01000DA07C /* ClimateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E54359298A6A01000DA07C /* ClimateViewModel.swift */; };
+		85E5435C298BC212000DA07C /* CustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5435B298BC212000DA07C /* CustomBottomSheet.swift */; };
+		85E5435E298BCBD0000DA07C /* CustomBottomSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5435D298BCBD0000DA07C /* CustomBottomSheetViewModel.swift */; };
+		85E54360298BF8B4000DA07C /* CustomStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5435F298BF8B4000DA07C /* CustomStepperView.swift */; };
+		85E54362298C05F9000DA07C /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E54361298C05F9000DA07C /* Double+Extension.swift */; };
+		85E54365298C064A000DA07C /* CustomSliderComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E54364298C064A000DA07C /* CustomSliderComponents.swift */; };
+		85E54367298C0678000DA07C /* CustomSliderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E54366298C0678000DA07C /* CustomSliderModifier.swift */; };
+		85E54369298C06FB000DA07C /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E54368298C06FB000DA07C /* CustomSlider.swift */; };
+		85E5436B298C086D000DA07C /* PowerBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5436A298C086D000DA07C /* PowerBottomSheetView.swift */; };
+		85E5436D298C09ED000DA07C /* ClimateInfoControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5436C298C09ED000DA07C /* ClimateInfoControl.swift */; };
+		85E5436F298C1F34000DA07C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5436E298C1F34000DA07C /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +51,22 @@
 		85397B4629891FEC0087FD4E /* NeumorphismSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismSelected.swift; sourceTree = "<group>"; };
 		85397B482989205A0087FD4E /* NeumorphismUnSelectedCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismUnSelectedCircle.swift; sourceTree = "<group>"; };
 		85397B4A298920A40087FD4E /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		85397B4C298922ED0087FD4E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		85E5434F298976D0000DA07C /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		85E543532989857A000DA07C /* ClimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateView.swift; sourceTree = "<group>"; };
+		85E5435529898C92000DA07C /* TopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControlView.swift; sourceTree = "<group>"; };
+		85E543572989A3EB000DA07C /* ClimateControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateControlView.swift; sourceTree = "<group>"; };
+		85E54359298A6A01000DA07C /* ClimateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateViewModel.swift; sourceTree = "<group>"; };
+		85E5435B298BC212000DA07C /* CustomBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomSheet.swift; sourceTree = "<group>"; };
+		85E5435D298BCBD0000DA07C /* CustomBottomSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomSheetViewModel.swift; sourceTree = "<group>"; };
+		85E5435F298BF8B4000DA07C /* CustomStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepperView.swift; sourceTree = "<group>"; };
+		85E54361298C05F9000DA07C /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		85E54364298C064A000DA07C /* CustomSliderComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderComponents.swift; sourceTree = "<group>"; };
+		85E54366298C0678000DA07C /* CustomSliderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderModifier.swift; sourceTree = "<group>"; };
+		85E54368298C06FB000DA07C /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		85E5436A298C086D000DA07C /* PowerBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerBottomSheetView.swift; sourceTree = "<group>"; };
+		85E5436C298C09ED000DA07C /* ClimateInfoControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateInfoControl.swift; sourceTree = "<group>"; };
+		85E5436E298C1F34000DA07C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +111,20 @@
 				85397B4629891FEC0087FD4E /* NeumorphismSelected.swift */,
 				85397B482989205A0087FD4E /* NeumorphismUnSelectedCircle.swift */,
 				85397B4A298920A40087FD4E /* View+Extension.swift */,
+				85397B4C298922ED0087FD4E /* WelcomeView.swift */,
+				85E5434F298976D0000DA07C /* WelcomeViewModel.swift */,
+				85E543532989857A000DA07C /* ClimateView.swift */,
+				85E5435529898C92000DA07C /* TopControlView.swift */,
+				85E543572989A3EB000DA07C /* ClimateControlView.swift */,
+				85E54359298A6A01000DA07C /* ClimateViewModel.swift */,
+				85E5435B298BC212000DA07C /* CustomBottomSheet.swift */,
+				85E5435D298BCBD0000DA07C /* CustomBottomSheetViewModel.swift */,
+				85E5435F298BF8B4000DA07C /* CustomStepperView.swift */,
+				85E54361298C05F9000DA07C /* Double+Extension.swift */,
+				85E5436A298C086D000DA07C /* PowerBottomSheetView.swift */,
+				85E5436C298C09ED000DA07C /* ClimateInfoControl.swift */,
+				85E54363298C0624000DA07C /* CustomSlider */,
+				85E5436E298C1F34000DA07C /* UIColor+Extension.swift */,
 			);
 			path = TeslaApp;
 			sourceTree = "<group>";
@@ -89,6 +135,16 @@
 				85397B33298844F50087FD4E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85E54363298C0624000DA07C /* CustomSlider */ = {
+			isa = PBXGroup;
+			children = (
+				85E54364298C064A000DA07C /* CustomSliderComponents.swift */,
+				85E54366298C0678000DA07C /* CustomSliderModifier.swift */,
+				85E54368298C06FB000DA07C /* CustomSlider.swift */,
+			);
+			path = CustomSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,16 +258,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E54369298C06FB000DA07C /* CustomSlider.swift in Sources */,
+				85E5436D298C09ED000DA07C /* ClimateInfoControl.swift in Sources */,
+				85E5435C298BC212000DA07C /* CustomBottomSheet.swift in Sources */,
 				85397B2F298844F40087FD4E /* MainView.swift in Sources */,
+				85E543542989857A000DA07C /* ClimateView.swift in Sources */,
+				85E54350298976D0000DA07C /* WelcomeViewModel.swift in Sources */,
+				85E5435E298BCBD0000DA07C /* CustomBottomSheetViewModel.swift in Sources */,
 				85397B4529891FC90087FD4E /* NeumorphismUnSelected.swift in Sources */,
 				85397B4B298920A40087FD4E /* View+Extension.swift in Sources */,
 				85397B3D298860BA0087FD4E /* Color+Extension.swift in Sources */,
+				85E54362298C05F9000DA07C /* Double+Extension.swift in Sources */,
 				85397B4129891CCE0087FD4E /* LinearGradient+Extension.swift in Sources */,
 				85397B4729891FEC0087FD4E /* NeumorphismSelected.swift in Sources */,
+				85397B4D298922ED0087FD4E /* WelcomeView.swift in Sources */,
 				85397B2D298844F40087FD4E /* TeslaAppApp.swift in Sources */,
+				85E54360298BF8B4000DA07C /* CustomStepperView.swift in Sources */,
+				85E54365298C064A000DA07C /* CustomSliderComponents.swift in Sources */,
+				85E5435629898C92000DA07C /* TopControlView.swift in Sources */,
+				85E54367298C0678000DA07C /* CustomSliderModifier.swift in Sources */,
 				85397B3F29891BC30087FD4E /* MainViewModel.swift in Sources */,
+				85E5436B298C086D000DA07C /* PowerBottomSheetView.swift in Sources */,
+				85E5435A298A6A01000DA07C /* ClimateViewModel.swift in Sources */,
 				85397B4329891EB20087FD4E /* BackgroundView.swift in Sources */,
+				85E5436F298C1F34000DA07C /* UIColor+Extension.swift in Sources */,
 				85397B492989205A0087FD4E /* NeumorphismUnSelectedCircle.swift in Sources */,
+				85E543582989A3EB000DA07C /* ClimateControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

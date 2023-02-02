@@ -1,9 +1,5 @@
-//
-//  View+Extension.swift
-//  TeslaApp
-//
-//  Created by Анна Сычева on 31.01.2023.
-//
+// View+Extension.swift
+// Copyright © RoadMap. All rights reserved.
 
 import SwiftUI
 
